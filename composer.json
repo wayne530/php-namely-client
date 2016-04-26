@@ -20,6 +20,6 @@
         "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
-        "psr-4": {"Wayne530\\Namely\\": "src/"}
+        "psr-4": {"Wayne530\\Namely\\": "src/Wayne530/Namely"}
     }
 }
