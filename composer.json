@@ -1,0 +1,25 @@
+{
+    "name": "wayne530/php-namely-client",
+    "description": "PHP Namely v1 API client based on GuzzleHttp",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["namely", "api", "client"],
+    "homepage": "https://github.com/wayne530/php-namely-client",
+    "authors": [
+        {
+            "name": "Y. Wayne Huang",
+            "email": "wayne530@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wayne530/php-namely-client/issues",
+        "source": "https://github.com/wayne530/php-namely-client"
+    },
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {"Wayne530\\Namely\\": "src/"}
+    }
+}
